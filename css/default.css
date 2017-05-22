@@ -8,11 +8,27 @@
 body
 {
   background-color:silver;
+  margin: 48px 0 0 0 ;
 }
 
 header
 {
   background-color:red;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100;
+}
+
+.box
+{
+  background-color: orange;
+  color: gray;
+  width: 240px;
+  height: 80px;
+  margin: 5px;
+  float: left;
+  overflow: hidden;
 }
 
 #main
@@ -42,6 +58,9 @@ aside
   background-color:brown;
   width: 200px;
   float: right;
+  position: relative;
+  top: 20px;
+  right: 10px;
 }
 
 footer
@@ -49,5 +68,14 @@ footer
   background-color:pink;
   clear: both;
 }
+
+#good_picture
+{
+  width: 24px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
 
 
