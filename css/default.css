@@ -7,32 +7,47 @@
 
 body
 {
-  background-color:gray;
+  background-color:silver;
 }
 
 header
 {
-  background-color:orange;
+  background-color:red;
+}
+
+#main
+{
+  background-color:gold;
+  width: calc(100% - 200px);
+  min-width: 500px;
+  float: left;
 }
 
 #main1
 {
-  background-color:green;
+  background-color:black;
+  width: 500px;
+  float: left;
 }
 
 #main2
 {
-  background-color:yellow;
+  background-color:white;
+  width: 500px;
+  float: left;
 }
 
 aside
 {
-  background-color:blue;
+  background-color:brown;
+  width: 200px;
+  float: right;
 }
 
 footer
 {
-  background-color:purple;
+  background-color:pink;
+  clear: both;
 }
 
 
